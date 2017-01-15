@@ -1,0 +1,490 @@
+* {
+  font-family: Papyrus;
+  background-image: url(https://fromzerotocodinghero.files.wordpress.com/2017/01/background.jpeg);
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  padding-bottom: 100px;
+}
+
+#sideone {
+  width: 75%;
+  float: left;
+}
+
+.button {
+  font-size: 22px;
+  margin-top: 10px;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger {
+  float: right;
+  padding-right: 10px;
+  margin-top: 5px;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  border: none;
+  background-color: none;
+}
+
+.cross {
+  float: right;
+  padding-right: 10px;
+  margin-top: 5px;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  font-size: 48px;
+  border: none;
+  background-color: none;
+}
+article {
+  background-image: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+article p {
+  background-image: none;
+  text-align: center;
+  font-family: Papyrus;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#sidetwo {
+  width: 35%;
+  float: right;
+  text-align: center;
+  display: none;
+}
+
+main {
+  width: 100%;
+  height: 900px;
+  background-image: none;
+  }
+
+#Ubuntu {
+  width: 60%;
+  height: 15%;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  background-image: none;
+}
+
+#Ubuntu h2 {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 35px;
+  font-size: 72px;
+  background-image: none;
+}
+
+#Ubuntu p {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    background-image: none;
+}
+
+#needs {
+  width: 85%;
+  margin: 0 auto;
+  height: 5%;
+  margin-bottom: 35px;
+  background-image: none;
+}
+
+#encourage {
+  width: 48%;
+  height: 100%;
+  float: left;
+  background-image: none;
+}
+
+#affirm {
+  width: 48%;
+  height: 100%;
+  float: right;
+  background-image: none;
+}
+
+#affirm p, #encourage p, #world p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 24px;
+  background-image: none;
+}
+
+#world {
+  width: 60%;
+  margin: 0 auto;
+  height: 5%;
+  background-image: none;
+}
+
+#About {
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
+  background-image: none;
+}
+
+#About p {
+  padding-bottom: 10px;
+  font-size: 18px;
+  background-image: none;
+}
+
+#About h1 {
+  background-image: none;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+#vent {
+  width: 80%;
+  margin: 0 auto;
+  height: 10%;
+  margin-bottom: 5%;
+  background-image: none;
+}
+
+#vent p {
+  text-align: center;
+  background-image: none;
+}
+
+#submission {
+  width: 80%;
+  margin: 0 auto;
+  height: 10%;
+  margin-bottom: 15%;
+  background-image: none;
+}
+
+#submission p {
+  text-align: center;
+  background-image: none;
+}
+
+a {
+  background-image: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  background-image: none;
+}
+
+section p {
+  text-align: center;
+  font-family: Papyrus;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: none;
+}
+
+.quotes {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  background-image: none;
+}
+
+.quotes p {
+  text-align: center;
+  font-family: Papyrus;
+  margin-top: 105px;
+  font-size: 26px;
+  line-height: 26px;
+  background-image: none;
+}
+
+iframe {
+  width: 100%;
+  margin: 0 auto;
+  height: 315px;
+}
+
+form {
+  margin: 0 auto;
+  width: 80%;
+  background-image: none;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  background-image: none;
+}
+
+input, textarea {
+  font: 12px sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  background-image: none;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+  resize: vertical;
+  background-image: none;
+}
+
+.buttontwo {
+  margin: 80%;
+  margin: 0 auto;
+  float: right;
+  background-image: none;
+}
+
+.buttontwo .submit {
+  margin-top: 5px;
+  font-family: Papyrus;
+}
+
+form div {
+  background-image: none;
+}
+
+.menu {
+  font-size:18px;
+  width:100%;
+  background:#131313;
+  position:absolute;
+  text-align:center;
+  margin-top: 55px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.menu li {
+  display: block;
+  padding:15px 0 15px 0;
+  color: black;
+  font-family: Papyrus;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.menu li:hover{
+  display: block;
+  background: #FDF5E6;
+  padding:15px 0 15px 0;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+
+.menu ul li a {
+  text-decoration:none;
+  margin: 0px; color:#fff;
+}
+
+.menu ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a{
+  text-decoration:none;
+  color:white;}
+
+.menu a:hover{
+  text-decoration:none;
+  color:white;}
+
+@media screen and (min-width: 768px) {
+  #nav {
+    display: none;
+  }
+
+  #sidetwo {
+    width: 35%;
+    float: right;
+    text-align: right;
+    display: inline;
+    background-image: none;
+  }
+
+  #sideone {
+    width: 25%;
+    float: left;
+  }
+
+  .button {
+    font-size: 18px;
+  }
+
+  #Ubuntu {
+    height: 25%;
+  }
+
+  #Ubuntu p {
+      margin-top: 55px;
+      font-size: 22px;
+      padding-top: 70px;
+  }
+
+  #needs {
+    width: 65%;
+    height: 7%;
+    margin-bottom: 50px;
+    margin-top: -20px;
+  }
+
+  #world {
+    width: 50%;
+    margin: 0 auto;
+    height: 7%;
+  }
+
+  #vent {
+    width: 60%;
+    margin: 0 auto;
+    height: 10%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  #submission {
+    width: 60%;
+    margin: 0 auto;
+    height: 10%;
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+
+  #Ubuntu h2 {
+    margin-top: 25px;
+    padding-top: 35px;
+    font-size: 96px;
+  }
+
+  #Ubuntu p {
+      margin-top: 25px;
+      padding-top: 20px;
+  }
+
+  #affirm p, #encourage p, #world p {
+    margin-top: 25px;
+    font-size: 32px;
+  }
+
+  section {
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    background-image: none;
+  }
+
+  section p {
+    text-align: center;
+    font-family: Papyrus;
+    margin-top: 45px;
+    font-size: 30px;
+    line-height: 34px;
+    background-image: none;
+  }
+
+  .quotes {
+    width: 60%;
+    margin: 0 auto;
+    height: 300px;
+    background-image: none;
+  }
+
+  .quotes p {
+    text-align: center;
+    font-family: Papyrus;
+    margin-top: 105px;
+    font-size: 48px;
+    line-height: 46px;
+    background-image: none;
+  }
+
+  #About p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-image: none;
+  }
+
+  #About h1 {
+    background-image: none;
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    margin-top: -75px;
+    margin-bottom: 0;
+  }
+
+  article p {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+
+  .hamburger, .cross, .menu {
+    display: none;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 65%;
+  }
+
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+  }
+
+  input, textarea {
+    font: 12px sans-serif;
+    width: 600px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    vertical-align: top;
+    height: 500px;
+    resize: vertical;
+  }
+
+  .buttontwo .submit {
+    margin-right: 200px;
+  }
+}
